@@ -8,7 +8,7 @@ interface Props {
 const Navbar: FunctionComponent<Props> = memo(({ selectedTab }) => {
   const navigate = useNavigate();
 
-  const onFickleflightLogoContainerClick = useCallback(() => {
+  const onbravoAirlinesLogoContainerClick = useCallback(() => {
     navigate("/");
   }, [navigate]);
 
@@ -30,7 +30,7 @@ const Navbar: FunctionComponent<Props> = memo(({ selectedTab }) => {
     <header className="self-stretch bg-primary-contrast h-[6.42rem] flex flex-row py-[1.83rem] px-[6.67rem] box-border items-center justify-center sticky w-full top-[0] [background:white] text-left text-[1.17rem] text-darkslategray-500 font-components-button-large lg:pl-[3.33rem] lg:pr-[3.33rem] lg:box-border md:pl-[2rem] md:pr-[2rem] md:box-border">
       <div className="flex-1 flex flex-row items-center justify-between">
         <button
-          onClick={onFickleflightLogoContainerClick}
+          onClick={onbravoAirlinesLogoContainerClick}
           className="cursor-pointer [border:none] p-0 bg-[transparent] relative w-[14.5rem] [3rem] overflow-hidden shrink-0"
         >
           <h1 className="font-baloo-bhai text-cornflowerblue-300">

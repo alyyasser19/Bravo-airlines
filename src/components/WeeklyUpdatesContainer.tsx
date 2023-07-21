@@ -13,7 +13,7 @@ const WeeklyUpdatesContainer: FunctionComponent<WeeklyUpdatesContainerType> =
   memo(({ imageDimensions, imageIds, smallImageDimensions }) => {
     const navigate = useNavigate();
 
-    const onFickleflightLogoContainerClick = useCallback(() => {
+    const onbravoAirlinesLogoContainerClick = useCallback(() => {
       navigate("/");
     }, [navigate]);
 
@@ -80,7 +80,7 @@ const WeeklyUpdatesContainer: FunctionComponent<WeeklyUpdatesContainerType> =
         <footer className="self-stretch [background:linear-gradient(91.74deg,_#0b5ba8_25.38%,_#299bd8)] flex flex-row py-[2.75rem] px-[7rem] items-start justify-start gap-[3.67rem] text-left text-[1.5rem] text-primary-contrast font-components-button-large lg:p-[3.33rem] lg:box-border md:flex-col md:pt-[3.33rem] md:px-[2rem] md:pb-[2.5rem] md:box-border sm:py-[2.5rem] sm:px-[2rem] sm:box-border">
           <div className="flex-1 flex flex-col items-start justify-start gap-[1.17rem] mb-[40px!important] md:flex-[unset] md:self-stretch">
             <button
-              onClick={onFickleflightLogoContainerClick}
+              onClick={onbravoAirlinesLogoContainerClick}
               className="cursor-pointer [border:none] p-0 bg-[transparent] relative w-[14.5rem] [3rem] overflow-hidden shrink-0"
             >
               <h1 className="font-baloo-bhai text-whitesmoke-300">
@@ -88,7 +88,7 @@ const WeeklyUpdatesContainer: FunctionComponent<WeeklyUpdatesContainerType> =
               </h1>
             </button>
             <div className="self-stretch relative leading-[2.25rem]">
-              Fickle Flight is your one-stop travel portal. We offer hassle free
+              Bravo Airlines is your one-stop travel portal. We offer hassle free
               flight and hotel bookings. We also have all your flight needs in
               you online shop.
             </div>

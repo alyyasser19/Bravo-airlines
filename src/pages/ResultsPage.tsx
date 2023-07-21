@@ -10,7 +10,7 @@ import Navbar from "../components/Navbar";
 const ResultsPage: FunctionComponent = () => {
   const navigate = useNavigate();
 
-  const onFickleflightLogoClick = useCallback(() => {
+  const onbravoAirlinesLogoClick = useCallback(() => {
     navigate("/");
   }, [navigate]);
 
